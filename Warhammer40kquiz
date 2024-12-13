@@ -1,0 +1,190 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+
+	int UltraMarines = 0;
+	int BloodAngels = 0;
+	int SpaceWolves = 0;
+	int DeathWatch = 0;
+	int BlackTemplars = 0;
+	int WhiteScars = 0;
+	int SonsofHorus = 0;
+	string answer;
+
+	cout << "what's your favorite color(red, blue, yellow, black, white, or grey is an option)" << endl;
+	cin >> answer;
+
+	if (answer == "red")
+		BloodAngels += 2;
+	else if (answer == "blue")
+		UltraMarines += 2;
+	else if (answer == "yellow")
+		SpaceWolves += 1;
+	else if (answer == "grey")
+		DeathWatch += 1;
+	else if (answer == "black")
+		BlackTemplars += 1;
+	else if (answer == "white")
+		WhiteScars += 1;
+	else if (answer == "green")
+		SonsofHorus += 1;
+
+	cout << "In Space Marines I & II, is Leuitenant Titus a herectic?(idk is an option)" << endl;
+	cin >> answer;
+	if (answer == "idk")
+		BloodAngels += 1;
+	else if (answer == "no")
+		UltraMarines += 2;
+	else if (answer == "idk")
+		SpaceWolves += 1;
+	else if (answer == "idk")
+		DeathWatch += 2;
+	else if (answer == "yes")
+		BlackTemplars += 2;
+	else if (answer == "idk")
+		WhiteScars += 1;
+
+	cout << "what's your favorite aniaml?(horse, Dog, bird, and none is optional)" << endl;
+	cin >> answer;
+	if (answer == "bird")
+		BloodAngels += 1;
+	else if (answer == "bird")
+		UltraMarines += 2;
+	else if (answer == "Dog")
+		SpaceWolves += 1;
+	else if (answer == "none")
+		DeathWatch += 2;
+	else if (answer == "none")
+		BlackTemplars += 2;
+	else if (answer == "horse")
+		WhiteScars += 1;
+
+	cout << "Do you pour milk before cereal?(yes or no)" << endl;
+	cin >> answer;
+	if (answer == "no")
+		BloodAngels += 1;
+	else if (answer == "no")
+		UltraMarines += 1;
+	else if (answer == "yes")
+		SpaceWolves += 100;
+	else if (answer == "no")
+		DeathWatch += 1;
+	else if (answer == "no")
+		BlackTemplars += 1;
+	else if (answer == "yes")
+		WhiteScars += 100;
+
+	cout << "what's your favorite aniaml?(horse, Dog, bird, and none is optional)" << endl;
+	cin >> answer;
+	if (answer == "bird")
+		BloodAngels += 1;
+	else if (answer == "bird")
+		UltraMarines += 2;
+	else if (answer == "Dog")
+		SpaceWolves += 1;
+	else if (answer == "none")
+		DeathWatch += 2;
+	else if (answer == "none")
+		BlackTemplars += 2;
+	else if (answer == "horse")
+		WhiteScars += 1;
+
+	cout << "Do you know the Horus Heresy(yes or no)" << endl;
+	cin >> answer;
+	if (answer == "yes")
+		BloodAngels += 2;
+	else if (answer == "yes")
+		UltraMarines += 2;
+	else if (answer == "yes")
+		SpaceWolves += 2;
+	else if (answer == "no")
+		DeathWatch += 1;
+	else if (answer == "yes")
+		BlackTemplars += 2;
+	else if (answer == "yes")
+		WhiteScars += 2;
+
+	cout << "Horus, the Warmaster, has communed with dark powers and torn the Imperium asunder. How do you view his actions?(unforgivable or humanity must be freed of ignorance. idk is option)" << endl;
+	cin >> answer;
+	if (answer == "unforgivable")
+		BloodAngels += 2;
+	else if (answer == "unforgivable")
+		UltraMarines += 2;
+	else if (answer == "unforgivable")
+		SpaceWolves += 2;
+	else if (answer == "idk")
+		DeathWatch += 1;
+	else if (answer == "unforgivable")
+		BlackTemplars += 2;
+	else if (answer == "unforgivable")
+		WhiteScars += 2;
+	else if (answer == "humanity must be freed of ignorance")
+		SonsofHorus += 2;
+
+	cout << "Scans of the battlefield have detected enemy troop movement in an unexpected quarter. How do you respond?(scramble the infantry or call in armour support)" << endl;
+	cin >> answer;
+	if (answer == "scramble the infantry")
+		BloodAngels += 1;
+	else if (answer == "scramble the infantry")
+		UltraMarines += 1;
+	else if (answer == "scramble the infantry")
+		SpaceWolves += 1;
+	else if (answer == "idk")
+		DeathWatch += 1;
+	else if (answer == "unforgivable")
+		BlackTemplars += 1;
+	else if (answer == "unforgivable")
+		WhiteScars += 1;
+	else if (answer == "scramble the infantry")
+		SonsofHorus += 1;
+
+	cout << "The scans revealed a heavily defended bunker, and you're tasked with storming it. what's the best way to take it out?(strike fast or advance steadily)" << endl;
+	cin >> answer;
+	if (answer == "strike fast")
+		BloodAngels += 1;
+	else if (answer == "advance steadily")
+		UltraMarines += 1;
+	else if (answer == "strike fast")
+		SpaceWolves += 1;
+	else if (answer == "advance steadily")
+		DeathWatch += 1;
+	else if (answer == "advance steadily")
+		BlackTemplars += 1;
+	else if (answer == "strike fast")
+		WhiteScars += 1;
+	else if (answer == "advance steadily")
+		SonsofHorus += 1;
+
+	cout << "When the fighting gets up close and personal. what's your weapon of choice?(Power claws or Power sword)" << endl;
+	cin >> answer;
+	if (answer == "strike fast")
+		BloodAngels += 1;
+	else if (answer == "Power sword")
+		UltraMarines += 1;
+	else if (answer == "Power claws")
+		SpaceWolves += 1;
+	else if (answer == "Power sword")
+		DeathWatch += 1;
+	else if (answer == "Power sword")
+		BlackTemplars += 1;
+	else if (answer == "strike fast")
+		WhiteScars += 1;
+	else if (answer == "Power claws")
+		SonsofHorus += 1;
+
+	if (BloodAngels > UltraMarines && BloodAngels > SpaceWolves && BloodAngels > DeathWatch && BloodAngels > BlackTemplars && BloodAngels > WhiteScars && BloodAngels > SonsofHorus)
+		cout << "They are strength. They are nobility. They are the Blood Angels" << endl;
+	else if (UltraMarines > SpaceWolves && UltraMarines > DeathWatch && UltraMarines > BlackTemplars && UltraMarines > WhiteScars && UltraMarines > SonsofHorus)
+		cout << "We are the Ultramarines, the sons of Guilliman. Whilst we draw breath, we stand. Whilst we stand, we fight!" << endl;
+	else if (SpaceWolves > DeathWatch && SpaceWolves > BlackTemplars && SpaceWolves > WhiteScars && SpaceWolves > SonsofHorus)
+		cout << "you are Space Wolves" << endl;
+	else if (DeathWatch > BlackTemplars && DeathWatch > WhiteScars && DeathWatch > SonsofHorus)
+		cout << "There maybe one fit for the DeathWatch" << endl;
+	else if (BlackTemplars > WhiteScars && BlackTemplars > SonsofHorus)
+		cout << "you are a black templar" << endl;
+	else if (WhiteScars > SonsofHorus)
+		cout << "you are White Scars" << endl;
+	else
+		cout << "you are the Sons of Horus" << endl;
+}
